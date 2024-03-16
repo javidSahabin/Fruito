@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <header class="container">
+        <div class="nav-bar">
+            <div class="logo">
+                <i class="fa-solid fa-basket-shopping"><span>Fruito</span></i>
+            </div>
+            <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Our product</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="shoppoiong-cart">
+                <i class="fas fa-user" id="user-btn"></i>
+                <i class="fa-solid fa-cart-shopping" id="shoppingBtn"></i>
+                <span id="count">0</span>
+            </div>
+        </div>
+        
+        <!-- login form section -->
+            <form class="login-form">
+                <div class="login-cont">
+                    <h3>Please Creat a account</h3>
+                    <div class="login-box">
+                        <input type="text" placeholder="Enter your Id" class="inp-box">
+                        <input type="number" placeholder="phone number" class="inp-box">
+                        <input type="password" placeholder="password" class="inp-box">
+                        <div class="checkbox">
+                        <input type="checkbox"><span>remeber password</span>
+                        </div>
+                    </div>
+                    <button type="submit" class="login-btn">Create Account</button>
+                </div>
+            </form>
+
+        <!-- cart section -->
+        <div class="card">
+            <h2>your cart</h2>
+            <ul class="list-cont">
+                <li>
+                    <img src="Images/p1.png" alt="" width="90px">
+                    <p>pinapple</p>
+                    <div class="icon"><i class="fas fa-trash"></i></div>
+                </li>
+            </ul>
+            <button id="closeBtn" class="shopping-btn">close</button>
+        </div>
+    </header>
+
+    <!-- hero section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>GOOD AND <br><span>FRESH FRUITS</span></h1>
+            <button>About Us</button>
+        </div>
+        <div class="verthe">
+                
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about">
+            <div class="about-cont">
+                <h2>About Us</h2>
+                <p>Farmers undertake different agriculture and agriculture related activities
+                  <br> like growing Agriculturecrops
+                </p>
+                <div class="about-cont1">
+                    <img src="Images/f3.png" alt="">
+                    <div class="about-button">
+                        <button id="about-btn" class="fas fa-arrow-down"></button>
+                    </div>
+                    <h3>Click for Features</h3>
+                </div>
+                <!-- Features section -->
+                <div class="features">
+                    <div class="fea-box">
+                        <img src="Images/Ps1.png" alt="">
+                        <button>Online shopping</button>
+                    </div>
+                    <div class="fea-box">
+                        <img src="Images/Ps2.png" alt="">
+                        <button>Fast delivery</button>
+                    </div>
+                    <div class="fea-box">
+                        <img src="Images/Ps3.png" alt="">
+                        <button>Save money</button>
+                    </div>
+                    <div class="fea-box">
+                        <img src="Images/Ps4.png" alt="">
+                        <button>Happy purchase</button>
+                    </div>
+                    <div class="fea-box">
+                        <img src="Images/Ps5.png" alt="">
+                        <button>Help me</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Procuct section -->
+    <section class="product">
+        <div class="pro-features">
+            <h1>Our products</h1>
+            <p>Farmers from running pillar to products
+                for availing benefits.Farmers fom <br>
+                running pillar to that was better benefits
+            </p>
+            <div class="pro-container">
+                <div class="pro-box">
+                    <img src="Images/p1.png" alt="" width="200px">
+                    <h3>Pinapple</h3>
+                    <p>Tasty and yummie</p>
+                    <span>Rs: 200</span>
+                    <button class="addCart">Add to Cart</button>
+                </div>
+
+                <div class="pro-box">
+                    <img src="Images/p2.png" alt="" width="200px" height="169px">
+                    <h3>Orange</h3>
+                    <p>Tasty and yummie</p>
+                    <span>Rs: 200</span>
+                    <button class="addCart">Add to Cart</button>
+                </div>
+
+                <div class="pro-box">
+                    <img src="Images/p3.png" alt="" width="180px" height="169px">
+                    <h3>Grapes</h3>
+                    <p>Tasty and yummie</p>
+                    <span>Rs: 200</span>
+                    <button class="addCart">Add to Cart</button>
+                </div>
+
+                <div class="pro-box">
+                    <img src="Images/p4.png" alt="" width="200px" height="169px">
+                    <h3>Mango</h3>
+                    <p>Tasty and yummie</p>
+                    <span>Rs: 200</span>
+                    <button class="addCart">Add to Cart</button>
+                </div>
+
+                <div class="pro-box">
+                    <img src="Images/p5.png" alt="" width="190px" height="169px">
+                    <h3>Stroberry</h3>
+                    <p>Tasty and yummie</p>
+                    <span>Rs: 200</span>
+                    <button class="addCart">Add to Cart</button>
+                </div>
+
+                <div class="pro-box">
+                    <img src="Images/p6.png" alt="" width="200px" height="172px">
+                    <h3>Pomegranate</h3>
+                    <p>Tasty and yummie</p>
+                    <span>Rs: 200</span>
+                    <button class="addCart">Add to Cart</button>
+                </div>
+
+                <div class="pro-box">
+                    <img src="Images/p7.png" alt="" width="200px" height="169px">
+                    <h3>Apple</h3>
+                    <p>Tasty and yummie</p>
+                    <span>Rs: 200</span>
+                    <button class="addCart">Add to Cart</button>
+                </div>
+
+
+                <div class="pro-box">
+                    <img src="Images/p8.png" alt="" width="180px" height="169px">
+                    <h3>Avacado</h3>
+                    <p>Tasty and yummie</p>
+                    <span>Rs: 200</span>
+                    <button class="addCart">Add to Cart</button>
+                </div>
+
+                <div class="pro-box">
+                    <img src="Images/p9.png" alt="" width="200px" height="172px">
+                    <h3>Peach</h3>
+                    <p>Tasty and yummie</p>
+                    <span>Rs: 200</span>
+                    <button class="addCart">Add to Cart</button>
+                </div>
+
+                <div class="pro-box">
+                    <img src="Images/p10.png" alt="" width="200px" height="172px">
+                    <h3>Blueberry</h3>
+                    <p>Tasty and yummie</p>
+                    <span>Rs: 200</span>
+                    <button class="addCart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- reviews section -->
+    <section class="reviewers">
+        <h1>Our Customers Say</h1>
+        <div class="review-cont">
+            <div class="review-box">
+                <div class="review-img">
+                    <img src="Images/person1.jpg" alt="">
+                </div>
+                <div class="rew-name">
+                    <span>Anna Albine</span>
+                </div>
+                <div class="rew-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="phara">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Sapiente quia enim quasi, consequatur veritatis illo dolorem
+                        saepe labore ab mollitia quaerat laborum necessitatibus aperiam
+                        perferendis earum sed vitae hic explicabo?</p>
+                </div>
+            </div>
+    
+            <div class="review-box">
+                <div class="review-img">
+                    <img src="Images/person2.jpg" alt="">
+                </div>
+                <div class="rew-name">
+                    <span>Adam John</span>
+                </div>
+                <div class="rew-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="phara">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Sapiente quia enim quasi, consequatur veritatis illo dolorem
+                        saepe labore ab mollitia quaerat laborum necessitatibus aperiam
+                        perferendis earum sed vitae hic explicabo?</p>
+                </div>
+            </div>
+    
+            <div class="review-box">
+                <div class="review-img">
+                    <img src="Images/person3.jpg" alt="">
+                </div>
+                <div class="rew-name">
+                    <span>Luice Mathew</span>
+                </div>
+                <div class="rew-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="phara">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Sapiente quia enim quasi, consequatur veritatis illo dolorem
+                        saepe labore ab mollitia quaerat laborum necessitatibus aperiam
+                        perferendis earum sed vitae hic explicabo?</p>
+                </div>
+            </div>
+    
+            <div class="review-box">
+                <div class="review-img">
+                    <img src="Images/person4.jpg" alt="">
+                </div>
+                <div class="rew-name">
+                    <span>cavin Jecob</span>
+                </div>
+                <div class="rew-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="phara">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Sapiente quia enim quasi, consequatur veritatis illo dolorem
+                        saepe labore ab mollitia quaerat laborum necessitatibus aperiam
+                        perferendis earum sed vitae hic explicabo?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- foooooooooter! -->
+    <section class="footer">
+        <div class="footer-box">
+            <i class="fa-solid fa-basket-shopping"><span>LOGO</span></i>
+            <p>Sign up for kelis tips,<br>
+                news and advance
+            </p>
+            <div class="footer-inp">
+                <input type="email" placeholder="Emali......">
+                <button>submit</button>
+            </div>
+        </div>
+        <div class="footer-cont">
+            <div class="footer-link">
+                <h4>Follow us</h4>
+                <div class="social-media">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-google-plus"></i>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <h4>contact us</h4>
+                <br>
+                <p>phone no: 8086458565 <br>
+                   Email: clone.act@gmail.com
+                </p>
+            </div>
+            <div class="footer-info">
+                <p>
+                    For Product Registration and General enquries <br>
+                    <span>Contact us</span>
+                </p>
+            </div>
+        </div>
+        <div class="line"></div>
+
+        <div class="last-cont">
+            <div class="last-cont1">
+                <div class="last-box">
+                    <p>Privecy | terms and condition <br>
+                       Copy right 2024 fruit stor - All Right Reserved</p>
+                </div>
+                <div class="payment">
+                    <img src="Images/payment1.png" alt="" width="80px">
+                    <img src="Images/payment2.png" alt="" width="50px">
+                    <img src="Images/payment3.png" alt="" width="50px">
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
